@@ -1,6 +1,6 @@
 # ProtocolBufferersExample
 Exemplo do uso de Protocol Bufferes no marshalling de mensagens
-
+```
 <build>
     <plugins>
       <plugin>
@@ -14,3 +14,4 @@ Exemplo do uso de Protocol Bufferes no marshalling de mensagens
       </plugin>
     </plugins>
   </build>
+```
