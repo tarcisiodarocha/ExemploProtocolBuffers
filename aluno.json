@@ -1,0 +1,11 @@
+{
+  "matricula": 123456,
+  "nome": "Morpheus Santos Sá",
+  "email": "morpheus@dcomp.ufs.br",
+  "telefones": [{
+    "numero": "79 99999-0000"
+  }, {
+    "numero": "79 3200-2323",
+    "tipo": "CASA"
+  }]
+}
