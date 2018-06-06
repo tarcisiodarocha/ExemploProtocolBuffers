@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+package ExemploProtocolBuffers;
+
+option java_package = "br.ufs.dcomp.ExemploProtocolBuffers";
+option java_outer_classname = "ContatoProto";
+
+message Aluno {
+           int32    matricula  = 1;
+           string   nome       = 2;
+           string   email      = 3;
+  repeated Telefone telefones  = 4;
+}
+
+message Telefone {
+   string       numero = 1;
+   Tipo tipo   = 2;
+}   
+
+enum Tipo {
+   MOVEL    = 0;
+   CASA     = 1;
+   TRABALHO = 2;
+}
