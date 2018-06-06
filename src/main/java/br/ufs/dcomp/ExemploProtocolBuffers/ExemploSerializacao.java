@@ -6,7 +6,7 @@ import com.google.protobuf.util.JsonFormat;
  * Hello world!
  *
  */
-public class TesteProtocolBuf 
+public class ExemploSerializacao 
 {
     public static void main( String[] args ) throws Exception
     {
@@ -40,7 +40,6 @@ public class TesteProtocolBuf
         FileOutputStream fos = new FileOutputStream(new File("aluno.bin"));
         fos.write(buffer);
         fos.close();
-        
         System.out.println("Contato escrito em formato binário no arquivo \"aluno.bin\"");
         
         // Mapeando a mensagem para o formato json

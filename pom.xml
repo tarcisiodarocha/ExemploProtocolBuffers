@@ -16,7 +16,7 @@
           <archive>
             <manifest>
               <mainClass>
-                br.ufs.dcomp.ExemploProtocolBuffers.TesteProtocolBuf
+                br.ufs.dcomp.ExemploProtocolBuffers.ExemploDesserializacao
               </mainClass>
             </manifest>
           </archive>
