@@ -13,8 +13,8 @@ message Aluno {
 }
 
 message Telefone {
-   string       numero = 1;
-   Tipo tipo   = 2;
+   string numero = 1;
+   Tipo   tipo   = 2;
 }   
 
 enum Tipo {
