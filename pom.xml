@@ -16,7 +16,7 @@
           <archive>
             <manifest>
               <mainClass>
-                br.ufs.dcomp.ExemploProtocolBuffers.ExemploDesserializacao
+                br.ufs.dcomp.ExemploProtocolBuffers.ExemploSerializacao
               </mainClass>
             </manifest>
           </archive>
@@ -29,9 +29,9 @@
   </build>
 
   <properties>
-    <protobuf.version>3.5.1</protobuf.version>
-    <maven.compiler.source>1.7</maven.compiler.source>
-    <maven.compiler.target>1.7</maven.compiler.target>
+    <protobuf.version>3.11.1</protobuf.version>
+    <maven.compiler.source>11</maven.compiler.source>
+    <maven.compiler.target>11</maven.compiler.target>
   </properties>
   <dependencies>
 
@@ -44,12 +44,12 @@
     <dependency>
       <groupId>com.google.protobuf</groupId>
       <artifactId>protobuf-java</artifactId>
-      <version>3.5.1</version>
+      <version>3.11.1</version>
     </dependency>
     <dependency>
       <groupId>com.google.protobuf</groupId>
       <artifactId>protobuf-java-util</artifactId>
-      <version>3.5.1</version>
+      <version>3.11.1</version>
     </dependency>
   </dependencies>
 </project>

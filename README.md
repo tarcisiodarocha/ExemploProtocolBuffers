@@ -1,9 +1,20 @@
 # ProtocolBufferersExample
-Exemplo do uso de Protocol Bufferes no marshalling de mensagens
-```
-protoc --java_out=src/main/java/ aluno.proto
 
+## Instalação do compilador protoc
+
+```
+sudo apt install protobuf-compiler
+```
+
+## Uso do compilador protoc
+
+```
+protoc --java_out=src/main/java/ src/main/proto/aluno.proto
+```
+
+## Compilação do projeto
+
+```
 mvn clean compile assembly:single
 
-export PATH=$PATH:/home/ubuntu/workspace/sistemas-distribuidos/ExemploProtocolBuffers/protobuf-compiler/bin
 ```
